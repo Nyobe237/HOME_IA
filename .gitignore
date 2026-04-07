@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+data/indabax_cameroun_gold_dataset.csv
+data/indabax_cameroun_ml_ready.csv
+*.csv
+!data/.gitkeep
+.streamlit/secrets.toml
