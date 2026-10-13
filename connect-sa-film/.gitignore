@@ -1,0 +1,7 @@
+node_modules/
+out/preview/
+out/*.png
+out/tmp/
+audio/models/
+audio/.venv/
+*.log

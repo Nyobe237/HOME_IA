@@ -1,0 +1,13 @@
+import React from "react";
+import { AbsoluteFill } from "remotion";
+import { useAbsFrame } from "../time";
+
+/** Provisoire : S2Search */
+export const S2Search: React.FC = () => {
+  const f = useAbsFrame();
+  return (
+    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", fontFamily: "Inter", fontSize: 40, color: "#999" }}>
+      S2Search — {f}
+    </AbsoluteFill>
+  );
+};

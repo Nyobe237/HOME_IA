@@ -1,0 +1,26 @@
+{
+  "name": "connect-sa-film",
+  "version": "1.0.0",
+  "description": "Film publicitaire CONNECT SA (40 s) - Remotion + React Three Fiber",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "render:h": "remotion render ConnectHorizontal out/CONNECT_FUSION_HORIZONTAL_40S.mp4",
+    "render:v": "remotion render ConnectVertical out/CONNECT_FUSION_VERTICAL_40S.mp4"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.2.0",
+    "@remotion/cli": "4.0.535",
+    "@remotion/three": "4.0.535",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.535",
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/three": "0.178.1",
+    "typescript": "5.9.3"
+  }
+}

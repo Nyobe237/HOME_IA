@@ -1,0 +1,357 @@
+{
+  "fps": 30,
+  "durationInFrames": 1200,
+  "durationSeconds": 40,
+  "formats": {
+    "horizontal": {
+      "width": 1920,
+      "height": 1080
+    },
+    "vertical": {
+      "width": 1080,
+      "height": 1920
+    }
+  },
+  "scenes": {
+    "S1_intro": {
+      "start": 0,
+      "end": 96,
+      "label": "Question + villes"
+    },
+    "S2_search": {
+      "start": 96,
+      "end": 246,
+      "label": "Recherche simulée"
+    },
+    "S3_presentation": {
+      "start": 246,
+      "end": 342,
+      "label": "Carte -> présentation CONNECT + courbe rouge"
+    },
+    "S4_orbit": {
+      "start": 342,
+      "end": 582,
+      "label": "Studio graphite, orbite"
+    },
+    "S5_heroes": {
+      "start": 582,
+      "end": 816,
+      "label": "Portable / imprimante / copieur"
+    },
+    "S6_collection": {
+      "start": 816,
+      "end": 948,
+      "label": "Gamme complète (6 catégories)"
+    },
+    "S7_services": {
+      "start": 948,
+      "end": 1068,
+      "label": "Installation / maintenance & SAV / location"
+    },
+    "S8_endcard": {
+      "start": 1068,
+      "end": 1200,
+      "label": "Logo, villes, contact"
+    }
+  },
+  "windows": {
+    "S1": [
+      0,
+      110
+    ],
+    "S2": [
+      90,
+      252
+    ],
+    "S3": [
+      240,
+      350
+    ],
+    "STAGE": [
+      326,
+      960
+    ],
+    "S7": [
+      940,
+      1080
+    ],
+    "S8": [
+      1056,
+      1200
+    ]
+  },
+  "heroes": {
+    "laptop": [
+      582,
+      660
+    ],
+    "printer": [
+      660,
+      738
+    ],
+    "copier": [
+      738,
+      816
+    ]
+  },
+  "events": {
+    "redLineDrawS1": [
+      6,
+      42
+    ],
+    "line1In": 9,
+    "line2In": 45,
+    "s1Exit": [
+      84,
+      104
+    ],
+    "searchBarIn": [
+      96,
+      110
+    ],
+    "typingText": "matériel informatique Douala",
+    "typingCharFrames": [
+      108,
+      110,
+      112,
+      115,
+      117,
+      119,
+      121,
+      123,
+      126,
+      128,
+      130,
+      132,
+      135,
+      137,
+      139,
+      141,
+      143,
+      146,
+      148,
+      150,
+      152,
+      154,
+      156,
+      159,
+      161,
+      163,
+      165,
+      167
+    ],
+    "typingEnd": 167,
+    "resultsSkeletonIn": [
+      166,
+      176
+    ],
+    "connectResultIn": [
+      172,
+      188
+    ],
+    "cursorIn": 178,
+    "cursorArrive": 210,
+    "clickDown": 216,
+    "click": 218,
+    "clickUp": 220,
+    "rippleS2": [
+      218,
+      240
+    ],
+    "cardLift": [
+      226,
+      246
+    ],
+    "presentationBuild": [
+      246,
+      276
+    ],
+    "presentationLogoHit": 252,
+    "curveSweep": [
+      300,
+      342
+    ],
+    "bgToGraphite": [
+      312,
+      342
+    ],
+    "stageFadeIn": [
+      326,
+      346
+    ],
+    "devicesFlyIn": [
+      344,
+      384
+    ],
+    "orbitTitleIn": 372,
+    "orbitTitleOut": [
+      556,
+      576
+    ],
+    "heroSwitch": [
+      582,
+      660,
+      738
+    ],
+    "toLight": [
+      816,
+      846
+    ],
+    "collectionTitleIn": 828,
+    "servicesIn": 948,
+    "serviceIcons": [
+      958,
+      976,
+      994
+    ],
+    "servicesTitleIn": 952,
+    "servicesExit": [
+      1052,
+      1068
+    ],
+    "endcardIn": [
+      1066,
+      1088
+    ],
+    "logoHit": 1072,
+    "endStableFrom": 1088
+  },
+  "seams": {
+    "ringAt342": {
+      "horizontal": {
+        "cx": 960,
+        "cy": 760,
+        "rx": 640,
+        "ry": 150,
+        "rotationDeg": -3
+      },
+      "vertical": {
+        "cx": 540,
+        "cy": 1180,
+        "rx": 440,
+        "ry": 118,
+        "rotationDeg": -3
+      }
+    },
+    "endcardProductsRegion": {
+      "horizontal": {
+        "x": 90,
+        "y": 230,
+        "w": 960,
+        "h": 640
+      },
+      "vertical": {
+        "x": 60,
+        "y": 700,
+        "w": 960,
+        "h": 640
+      }
+    },
+    "endcardTextRegion": {
+      "horizontal": {
+        "x": 1080,
+        "y": 250,
+        "w": 760,
+        "h": 580
+      },
+      "vertical": {
+        "x": 90,
+        "y": 230,
+        "w": 900,
+        "h": 420,
+        "secondary": {
+          "x": 90,
+          "y": 1390,
+          "w": 900,
+          "h": 360
+        }
+      }
+    }
+  },
+  "voiceover": [
+    {
+      "id": "V1",
+      "window": [
+        0.25,
+        3.2
+      ],
+      "text": "Du matériel informatique, à Douala ou à Yaoundé ?"
+    },
+    {
+      "id": "V2",
+      "window": [
+        3.75,
+        7.9
+      ],
+      "text": "Pour votre entreprise, choisissez un partenaire sérieux."
+    },
+    {
+      "id": "V3",
+      "window": [
+        8.35,
+        11.3
+      ],
+      "text": "CONNECT SA : informatique et bureautique, à Douala comme à Yaoundé."
+    },
+    {
+      "id": "V4",
+      "window": [
+        11.9,
+        19.1
+      ],
+      "text": "Ordinateurs, imprimantes, copieurs, consommables : nous vous conseillons l'équipement adapté à votre activité."
+    },
+    {
+      "id": "V5a",
+      "window": [
+        19.75,
+        22.2
+      ],
+      "text": "Des ordinateurs pour avancer,"
+    },
+    {
+      "id": "V5b",
+      "window": [
+        22.35,
+        24.8
+      ],
+      "text": "des imprimantes pour des documents nets,"
+    },
+    {
+      "id": "V5c",
+      "window": [
+        24.95,
+        27.2
+      ],
+      "text": "des copieurs pour toute l'équipe."
+    },
+    {
+      "id": "V6",
+      "window": [
+        27.45,
+        29.5
+      ],
+      "text": "Tout pour votre bureau, au même endroit."
+    },
+    {
+      "id": "V7",
+      "window": [
+        29.7,
+        35.5
+      ],
+      "text": "Et après l'achat, nous restons à vos côtés : installation, maintenance, service après-vente et location de copieurs."
+    },
+    {
+      "id": "V8",
+      "window": [
+        35.95,
+        39.6
+      ],
+      "text": "CONNECT SA, informatique et bureautique. Parlons de vos besoins."
+    }
+  ],
+  "voiceoverPronunciation": {
+    "CONNECT": "Connecte",
+    "SA": "èssa"
+  }
+}
