@@ -126,13 +126,44 @@ def load(voice: Voice):
     return _SESSIONS[voice.model]
 
 
-def phonemize(text: str):
+# Mots-outils dont gruut ajoute toujours un « z » de liaison (« des » -> /dez/), même devant consonne.
+LIAISON_Z = {"des", "les", "mes", "tes", "ses", "ces", "nos", "vos", "aux"}
+VOWELS = {"a", "e", "i", "o", "u", "y", "ø", "œ", "ə", "ɛ", "ɔ", "ɑ", "ɑ̃", "ɛ̃", "ɔ̃", "œ̃"}
+
+# Prononciations imposées (mot en minuscules -> une ou plusieurs listes de phonèmes, une liste par « mot » prosodique).
+PHONEME_OVERRIDES: dict[str, list[list[str]]] = {}
+
+
+def _fix_liaisons(words):
+    """« z » de liaison : supprimé devant consonne, rattaché à la syllabe suivante devant voyelle (dé-zimprimantes)."""
+    out = [(w, list(p)) for w, p in words]
+    for i, (w, p) in enumerate(out):
+        if w.lower() not in LIAISON_Z or not p or p[-1] != "z":
+            continue
+        nxt = out[i + 1][1] if i + 1 < len(out) else []
+        p.pop()
+        if nxt and nxt[0] in VOWELS:
+            nxt.insert(0, "z")
+    return out
+
+
+def phonemize(text: str, overrides: dict | None = None):
     """Return the list of sentences, each a list of (word, [phonemes])."""
     import gruut
 
+    ov = PHONEME_OVERRIDES if overrides is None else overrides
     out = []
     for sentence in gruut.sentences(text, lang="fr_FR"):
-        out.append([(w.text, list(w.phonemes or [])) for w in sentence if w.phonemes])
+        words = []
+        for w in sentence:
+            if not w.phonemes:
+                continue
+            key = w.text.lower()
+            if key in ov:
+                words.extend((f"{w.text}#{i}", list(ph)) for i, ph in enumerate(ov[key]))
+            else:
+                words.append((w.text, list(w.phonemes)))
+        out.append(_fix_liaisons(words))
     return out
 
 
