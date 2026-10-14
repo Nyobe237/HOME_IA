@@ -52,14 +52,14 @@ dans sa fenêtre avec une marge, sans chevauchement.
 |---|---|---|---|
 | 0,0–3,2 | Fond clair, typographie ample, trait rouge | « Du matériel informatique ? » puis « Douala ou Yaoundé. » | « Du matériel informatique, à Douala ou à Yaoundé ? » |
 | 3,2–8,2 | Recherche **générique** (aucun logo de moteur, aucun rang, aucune URL, aucune étoile) : saisie « matériel informatique Douala », résultat CONNECT (logo + « Informatique & Bureautique — Douala • Yaoundé »), pointeur, clic | Saisie + carte | « Pour votre entreprise, choisissez un partenaire sérieux. » |
-| 8,2–11,4 | La carte devient la présentation : logo, façade, villes ; le tiret rouge s'étire en courbe → ellipse ; fond clair → graphite | « Informatique & Bureautique », « Douala • Yaoundé » | « CONNECT SA : informatique et bureautique, à Douala comme à Yaoundé. » |
+| 8,2–11,4 | La carte devient la présentation : logo, façade, villes ; le tiret rouge s'étire en courbe → ellipse ; fond clair → graphite | « Informatique & Bureautique », « Douala • Yaoundé » | « CONNECT SA, présent à Douala comme à Yaoundé. » |
 | 11,4–19,4 | Studio graphite : portable, poste, imprimante, copieur, toner en **orbite inclinée** sur l'anneau ; position, échelle et profondeur varient en continu | « Votre équipement entre en scène. » | « Ordinateurs, imprimantes, copieurs, consommables : nous vous conseillons l'équipement adapté à votre activité. » |
 | 19,4–22,0 | Héros 1 : portable au premier plan | « Ordinateurs portables » — « Vos idées. En mouvement. » | « Des ordinateurs pour avancer, » |
 | 22,0–24,6 | Héros 2 : imprimante | « Imprimantes » — « Vos documents. Avec précision. » | « des imprimantes pour des documents nets, » |
 | 24,6–27,2 | Héros 3 : copieur | « Copieurs multifonctions » — « Copier. Numériser. Partager. » | « des copieurs pour toute l'équipe. » |
 | 27,2–31,6 | Le studio s'éclaircit ; composition claire des **six** catégories + légende | « Tout pour votre bureau. » | « Tout pour votre bureau, au même endroit. » |
-| 31,6–35,6 | Trois services, icônes au trait reliées par la trajectoire | « Bien équipés. Bien accompagnés. » — Installation · Maintenance & SAV · Location de copieurs | « Et après l'achat, nous restons à vos côtés : installation, maintenance, service après-vente et location de copieurs. » (commence dès 29,7 s) |
-| 35,6–40,0 | Collection + logo sur fond clair, trait rouge sous le logo, coordonnées ; **tout est immobile dès 36,3 s** | « Informatique & Bureautique », « Douala • Yaoundé », « Parlons de vos besoins. », « 699 922 922 » | « CONNECT SA, informatique et bureautique. Parlons de vos besoins. » |
+| 31,6–35,6 | Trois services, icônes au trait reliées par la trajectoire | « Bien équipés. Bien accompagnés. » — Installation · Maintenance & SAV · Location de copieurs | « Après l'achat, nous restons à vos côtés : installation, maintenance, location de copieurs. » (commence dès 29,7 s) |
+| 35,6–40,0 | Collection + logo sur fond clair, trait rouge sous le logo, coordonnées ; **tout est immobile dès 36,3 s** | « Informatique & Bureautique », « Douala • Yaoundé », « Parlons de vos besoins. », « 699 922 922 » | « CONNECT SA, un partenaire sérieux. Parlons de vos besoins. » |
 
 Le numéro 699 922 922 est affiché mais **non prononcé** tant qu'il n'est pas validé pour la diffusion (plus simple à corriger).
 
@@ -131,7 +131,8 @@ les illustrations par les références catalogue, valider la façade et les coor
 ### Ce qui a été amélioré par rapport au prompt initial
 
 1. **Message « partenaire sérieux »** explicité et porté par une **voix off complète** (8 interventions calées aux scènes).
-2. **Voix off minutée** dans des fenêtres, avec règle de non-chevauchement et prononciation contrôlée.
+2. **Voix off minutée** dans des fenêtres, avec règle de non-chevauchement et prononciation contrôlée ; le texte a été
+   resserré pour être dit à un débit naturel (les versions longues imposaient d'accélérer la voix d'environ 30 %).
 3. **Raccords précis** de la trajectoire rouge (dont l'ellipse S3 → anneau 3D à l'image près).
 4. Gestion des **entrées manquantes** (logo, PNG produits) au lieu de supposer leur présence.
 5. Règle anti-**marques tierces** (le prototype montrait une imprimante Epson).
