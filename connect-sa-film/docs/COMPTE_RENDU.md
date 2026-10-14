@@ -46,6 +46,18 @@ Bande-son : `cd audio && .venv/bin/python build_audio.py` (voir `audio/README.md
   **Une écoute humaine est indispensable** ; pour une diffusion, un enregistrement par un comédien professionnel
   sur le même minutage est recommandé.
 
+## Corrections de la voix off (remarques du client du 14/10)
+
+| Remarque | Correction | Vérification |
+|---|---|---|
+| « Yaoundé » mal prononcé (voix masculine, puis féminine) | Prononciation imposée « Ya \| oun-dé » (deux syllabes séparées, comme dans l'enregistrement du client) ; prises choisies par comparaison acoustique avec sa prononciation | Transcription automatique peu fiable sur ce nom (elle transcrit aussi la voix du client « y'a ondée ») : **écoute de validation nécessaire** |
+| « imprimantes » (voix féminine) et « des imprimantes pour des documents nets, des copieurs pour toute l'équipe » (deux voix) | Erreur du phonétiseur corrigée : il ajoutait un *z* de liaison devant consonne (« dé**z** documents », « dé**z** copieurs ») ; la liaison n'est plus faite que devant voyelle (« dé-zimprimantes ») | Phrases reconnues sans erreur dans les deux voix |
+| « Des ordinateurs pour avancer » (voix masculine) | Fin de phrase par un point au lieu d'une virgule (la fin de « avancer » était avalée) ; marge de découpe élargie pour ne plus rogner les consonnes initiales | « avancer » reconnu sans erreur |
+| (constaté pendant la vérification) « copieurs » entendu « copiers » | Prononciation « co-pi-yeur » (voix masculine partout, voix féminine dans l'énumération) | Reconnu sans erreur |
+
+Outil de contrôle : Whisper « small » exécuté hors ligne (paquet npm `sts-whisper-small`, licence Apache-2.0),
+utilisé uniquement pour transcrire les prises candidates et les notes vocales du client.
+
 ## Musique et sons
 
 Musique instrumentale **originale générée par code** (ré majeur, ~98,6 BPM, grille calée pour que l'entrée du

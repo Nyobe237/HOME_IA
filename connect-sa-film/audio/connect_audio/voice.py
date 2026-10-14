@@ -57,7 +57,7 @@ def _env_db(x, sr, win=0.01):
     return dsp.a2db(e)
 
 
-def trim(x, sr, thr_db=-48.0, pre=0.012, post=0.045):
+def trim(x, sr, thr_db=-48.0, pre=0.035, post=0.05):
     e = _env_db(x, sr)
     ref = np.percentile(e, 99)
     idx = np.where(e > ref + thr_db)[0]
@@ -230,13 +230,24 @@ def process_line(x22, sr_in, prof: VoiceProfile):
     return dsp.fade(x, 0.003, 0.02), float(np.percentile(gr[gr > 0], 90)) if np.any(gr > 0) else 0.0
 
 
-def build_voice_track(lines, prof: VoiceProfile, duration=40.0, log=print, reverb_wet_db=-19.0):
+def build_voice_track(lines, prof: VoiceProfile, duration=40.0, log=print, reverb_wet_db=-19.0, line_opts=None):
+    """line_opts : {id_ligne: {"seeds": (..), "noise_scale": x, "phonemes": {mot: [[...]]}}} -> prise et
+    prononciation imposées pour une ligne (choix validés par transcription automatique)."""
+    from dataclasses import replace
+
     n = int(round(duration * SR))
     dry = np.zeros(n)
     placed = []
     for ln in lines:
         log(f" {ln['id']}  « {ln['text']} »  window {ln['window']}")
-        tk = fit_line(ln, prof, log)
+        opt = (line_opts or {}).get(ln["id"], {})
+        lp = replace(prof, **{k: v for k, v in opt.items() if k in ("seeds", "noise_scale", "noise_w")})
+        tts.PHONEME_OVERRIDES.clear()
+        tts.PHONEME_OVERRIDES.update(opt.get("phonemes", {}))
+        try:
+            tk = fit_line(ln, lp, log)
+        finally:
+            tts.PHONEME_OVERRIDES.clear()
         y, gr90 = process_line(tk.audio22, tk.sr, prof)
         t0 = ln["window"][0] + MARGIN
         dsp.place(dry, y, t0)

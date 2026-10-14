@@ -35,6 +35,27 @@ N = int(DUR * SR)
 MAIN_VOICE = V.VoiceProfile(key="bernard", seeds=(1, 2, 3, 4), exciter_db=-24.0)
 ALT_VOICE = V.VoiceProfile(key="siwis", seeds=(1, 2, 3, 4), exciter_db=-26.0)
 
+# Prises et prononciations imposées après les remarques du client (14/10) et vérification par
+# transcription automatique (Whisper small, hors ligne) + comparaison à sa prononciation enregistrée.
+YA_SPLIT = {"yaoundé": [["j", "a"], ["u", "n", "d", "e"]]}      # « Ya | oundé » (syllabes séparées, comme le client)
+COPIEURS = {"copieurs": [["k", "ɔ", "p", "i", "j", "œ", "ʁ"]]}  # « co-pi-yeur » : fin du mot nette (voix masc.)
+MAIN_LINES = {
+    "V1": {"phonemes": YA_SPLIT, "seeds": (3,), "noise_scale": 0.5},
+    "V3": {"phonemes": YA_SPLIT, "seeds": (3,), "noise_scale": 0.5},
+    "V4": {"phonemes": COPIEURS, "seeds": (3, 5)},
+    "V5a": {"seeds": (1, 3, 4)},
+    "V5b": {"seeds": (2,), "noise_scale": 0.5},
+    "V5c": {"phonemes": COPIEURS, "seeds": (1, 2, 4, 5)},
+    "V6": {"seeds": (1,), "noise_scale": 0.5},
+    "V7": {"phonemes": COPIEURS, "seeds": (1, 2, 3, 4, 5, 6)},
+}
+ALT_LINES = {
+    "V1": {"phonemes": YA_SPLIT, "seeds": (5,), "noise_scale": 0.5},
+    "V3": {"phonemes": YA_SPLIT, "seeds": (3,), "noise_scale": 0.667},
+    "V4": {"phonemes": COPIEURS},
+    "V5b": {"seeds": (1,), "noise_scale": 0.667},
+}
+
 MUSIC_LUFS = -21.5  # bed level before ducking
 DUCK_DB = -8.5
 TARGET_LUFS = -14.0
@@ -95,9 +116,9 @@ def main():
     log = lambda *a: print(*a, flush=True)
 
     log("== voix principale")
-    voice, placed = V.build_voice_track(tl["voiceover"], MAIN_VOICE, DUR, log)
+    voice, placed = V.build_voice_track(tl["voiceover"], MAIN_VOICE, DUR, log, line_opts=MAIN_LINES)
     log("== voix alternative")
-    voice_f, placed_f = V.build_voice_track(tl["voiceover"], ALT_VOICE, DUR, log)
+    voice_f, placed_f = V.build_voice_track(tl["voiceover"], ALT_VOICE, DUR, log, line_opts=ALT_LINES)
     voice, voice_f = fit(voice), fit(voice_f)
 
     log("== musique")
