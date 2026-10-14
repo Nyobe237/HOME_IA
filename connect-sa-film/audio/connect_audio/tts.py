@@ -31,6 +31,8 @@ LATENT_CHANNELS = 192
 PRONUNCIATION = [
     (r"\bCONNECT\b", "Connecte"),
     (r"\bSA\b", "S A"),
+    # numéro lu par groupes de trois, avec une courte pause entre les groupes
+    (r"\b699 922 922\b", "699, 922, 922"),
 ]
 
 

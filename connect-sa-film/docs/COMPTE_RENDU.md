@@ -30,8 +30,8 @@ Bande-son : `cd audio && .venv/bin/python build_audio.py` (voir `audio/README.md
    ils n'ont volontairement pas été repris. → Pour la diffusion : remplacer par les références catalogue retenues
    (modèles 3D ou visuels détourés).
 4. **Fonds d'écran** des ordinateurs : composés à partir du logo extrait (`public/assets/screen_wallpaper_*.png`).
-5. **Numéro de téléphone** 699 922 922 : repris du brief, **à vérifier** ; il est affiché mais non prononcé
-   par la voix (modification sans ré-enregistrement).
+5. **Numéro de téléphone** 699 922 922 : **confirmé par le client** ; affiché sur la carte de fin et prononcé
+   par la voix off (« Parlons de vos besoins : 699 922 922. », de 34,0 s à 39,7 s).
 6. **Interface de recherche** : mise en scène générique (aucun moteur réel, aucun classement revendiqué).
 
 ## Voix off
@@ -57,5 +57,6 @@ au logo. Mix −14 LUFS intégrés, crête vraie −1,2 dBTP, 48 kHz stéréo, f
 
 - Accroche du copieur : « Copier. Numériser. Partager. » au lieu de « Votre bureau. Bien équipé. » (évite la
   redite avec « Bien équipés. Bien accompagnés. »).
-- Voix off : formulations raccourcies (V3, V7, V8) ; la fin martèle le message « un partenaire sérieux ».
+- Voix off : formulations raccourcies (V3, V6, V7, V8) ; « CONNECT SA, un partenaire sérieux. » sur la gamme complète,
+  puis le numéro prononcé sur la carte de fin.
 - Le prototype Python mentionné dans le brief n'était pas présent ; la voie Remotion + `@remotion/three` a été retenue.

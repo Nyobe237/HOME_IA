@@ -16,9 +16,9 @@ Pour une diffusion, faire réenregistrer ce texte par un comédien professionnel
 | V5a | Des ordinateurs pour avancer, | 19.75–22.20 | 19.83–21.32 | 19.83–21.54 |
 | V5b | des imprimantes pour des documents nets, | 22.35–24.80 | 22.43–24.41 | 22.43–24.71 |
 | V5c | des copieurs pour toute l'équipe. | 24.95–27.20 | 25.03–26.53 | 25.03–27.10 |
-| V6 | Tout pour votre bureau, au même endroit. | 27.35–29.55 | 27.43–29.46 | 27.43–29.47 |
-| V7 | Après l'achat, nous restons à vos côtés : installation, maintenance, location de copieurs. | 29.70–35.50 | 29.78–35.39 | 29.78–35.36 |
-| V8 | CONNECT SA, un partenaire sérieux. Parlons de vos besoins. | 35.80–39.75 | 35.88–39.30 | 35.88–39.51 |
+| V6 | CONNECT SA, un partenaire sérieux. | 27.25–29.50 | 27.33–29.41 | 27.33–29.42 |
+| V7 | Et après l'achat : installation, maintenance, location de copieurs. | 29.55–33.90 | 29.63–33.81 | 29.63–33.74 |
+| V8 | Parlons de vos besoins : 699 922 922. | 33.95–39.75 | 34.03–39.67 | 34.03–39.13 |
 
 ## Musique
 
@@ -26,6 +26,6 @@ Composition originale générée par code : D major, 98.63 BPM (grille calée po
 
 ## Mesures
 
-- Mix principal : -14.03 LUFS intégrés, crête vraie -1.2 dBTP
+- Mix principal : -14.02 LUFS intégrés, crête vraie -1.2 dBTP
 - Mix voix féminine : -14.0 LUFS, crête vraie -1.2 dBTP
 - Durée exacte 40,000 s, 48 kHz, stéréo 24 bits, fin en silence numérique.

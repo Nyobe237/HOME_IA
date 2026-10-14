@@ -57,11 +57,11 @@ dans sa fenêtre avec une marge, sans chevauchement.
 | 19,4–22,0 | Héros 1 : portable au premier plan | « Ordinateurs portables » — « Vos idées. En mouvement. » | « Des ordinateurs pour avancer, » |
 | 22,0–24,6 | Héros 2 : imprimante | « Imprimantes » — « Vos documents. Avec précision. » | « des imprimantes pour des documents nets, » |
 | 24,6–27,2 | Héros 3 : copieur | « Copieurs multifonctions » — « Copier. Numériser. Partager. » | « des copieurs pour toute l'équipe. » |
-| 27,2–31,6 | Le studio s'éclaircit ; composition claire des **six** catégories + légende | « Tout pour votre bureau. » | « Tout pour votre bureau, au même endroit. » |
-| 31,6–35,6 | Trois services, icônes au trait reliées par la trajectoire | « Bien équipés. Bien accompagnés. » — Installation · Maintenance & SAV · Location de copieurs | « Après l'achat, nous restons à vos côtés : installation, maintenance, location de copieurs. » (commence dès 29,7 s) |
-| 35,6–40,0 | Collection + logo sur fond clair, trait rouge sous le logo, coordonnées ; **tout est immobile dès 36,3 s** | « Informatique & Bureautique », « Douala • Yaoundé », « Parlons de vos besoins. », « 699 922 922 » | « CONNECT SA, un partenaire sérieux. Parlons de vos besoins. » |
+| 27,2–31,6 | Le studio s'éclaircit ; composition claire des **six** catégories + légende | « Tout pour votre bureau. » | « CONNECT SA, un partenaire sérieux. » |
+| 31,6–35,6 | Trois services, icônes au trait reliées par la trajectoire | « Bien équipés. Bien accompagnés. » — Installation · Maintenance & SAV · Location de copieurs | « Et après l'achat : installation, maintenance, location de copieurs. » (29,6 s) |
+| 35,6–40,0 | Collection + logo sur fond clair, trait rouge sous le logo, coordonnées ; **tout est immobile dès 36,3 s** | « Informatique & Bureautique », « Douala • Yaoundé », « Parlons de vos besoins. », « 699 922 922 » | « Parlons de vos besoins : 699 922 922. » (commence à 34,0 s, le numéro tombe sur la carte de fin) |
 
-Le numéro 699 922 922 est affiché mais **non prononcé** tant qu'il n'est pas validé pour la diffusion (plus simple à corriger).
+Le numéro 699 922 922 (validé) est affiché **et prononcé** par groupes de trois chiffres, en même temps que la carte de fin.
 
 ## Direction visuelle
 

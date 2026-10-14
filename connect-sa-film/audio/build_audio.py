@@ -64,7 +64,7 @@ def master(mix: np.ndarray) -> tuple[np.ndarray, dict]:
         lufs = an.integrated_lufs(y, SR)
         y = y * dsp.db2a(TARGET_LUFS - lufs)
         y, _g = dsp.true_peak_limiter(y, CEIL_DBTP, SR)
-    y = dsp.fade(y, 0.0, 0.5)
+    y = dsp.fade(y, 0.0, 0.25)
     y[-int(0.01 * SR):] = 0.0
     return y, {"lufs_i": round(an.integrated_lufs(y, SR), 2), "true_peak_dbtp": round(an.true_peak_db(y), 2),
                "sample_peak_dbfs": round(float(dsp.a2db(np.abs(y).max())), 2)}
