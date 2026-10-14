@@ -1,0 +1,527 @@
+{
+  "music": {
+    "bpm": 98.63,
+    "bar_s": 2.4333,
+    "first_bar_s": 1.667,
+    "drums_in_s": 11.4,
+    "logo_s": 35.733,
+    "key": "D major",
+    "progression": "D A/C# Bm G (x3) G Asus-A | D"
+  },
+  "sfx_cues": [
+    {
+      "cue": "typing x28",
+      "t": 3.6
+    },
+    {
+      "cue": "mouse down",
+      "t": 7.2
+    },
+    {
+      "cue": "mouse up",
+      "t": 7.333
+    },
+    {
+      "cue": "pop line1In",
+      "t": 0.3
+    },
+    {
+      "cue": "pop line2In",
+      "t": 1.5
+    },
+    {
+      "cue": "pop orbitTitleIn",
+      "t": 12.4
+    },
+    {
+      "cue": "pop collectionTitleIn",
+      "t": 27.6
+    },
+    {
+      "cue": "pop servicesTitleIn",
+      "t": 31.733
+    },
+    {
+      "cue": "pop service 1",
+      "t": 31.933
+    },
+    {
+      "cue": "pop service 2",
+      "t": 32.533
+    },
+    {
+      "cue": "pop service 3",
+      "t": 33.133
+    },
+    {
+      "cue": "whoosh card lift",
+      "t": 7.433
+    },
+    {
+      "cue": "riser curve sweep",
+      "t": 10.0
+    },
+    {
+      "cue": "swish device 1",
+      "t": 11.567
+    },
+    {
+      "cue": "swish device 2",
+      "t": 11.7
+    },
+    {
+      "cue": "swish device 3",
+      "t": 11.833
+    },
+    {
+      "cue": "swish device 4",
+      "t": 11.967
+    },
+    {
+      "cue": "swish device 5",
+      "t": 12.1
+    },
+    {
+      "cue": "whoosh hero 582",
+      "t": 19.0
+    },
+    {
+      "cue": "whoosh hero 660",
+      "t": 21.6
+    },
+    {
+      "cue": "whoosh hero 738",
+      "t": 24.2
+    },
+    {
+      "cue": "air to light",
+      "t": 27.2
+    },
+    {
+      "cue": "whoosh services",
+      "t": 31.25
+    },
+    {
+      "cue": "whoosh end card",
+      "t": 35.067
+    },
+    {
+      "cue": "logo shimmer",
+      "t": 35.733
+    }
+  ],
+  "voice_main": [
+    {
+      "id": "V1",
+      "text": "Du matériel informatique, à Douala ou à Yaoundé ?",
+      "spoken": "Du matériel informatique, à Douala ou à Yaoundé ?",
+      "seed": 2,
+      "length_scale": 0.975,
+      "start": 0.28,
+      "end": 3.378,
+      "window": [
+        0.2,
+        3.5
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 5.9,
+      "f0_median_hz": 107.4,
+      "f0_std_st": 2.52,
+      "hnr_db": 10.3,
+      "final_slope_st": -0.11,
+      "syll_per_s": 5.56
+    },
+    {
+      "id": "V2",
+      "text": "Pour votre entreprise, choisissez un partenaire sérieux.",
+      "spoken": "Pour votre entreprise, choisissez un partenaire sérieux.",
+      "seed": 4,
+      "length_scale": 1.0,
+      "start": 3.83,
+      "end": 7.064,
+      "window": [
+        3.75,
+        7.9
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 6.8,
+      "f0_median_hz": 110.2,
+      "f0_std_st": 2.95,
+      "hnr_db": 8.7,
+      "final_slope_st": -1.25,
+      "syll_per_s": 4.39
+    },
+    {
+      "id": "V3",
+      "text": "CONNECT SA, présent à Douala comme à Yaoundé.",
+      "spoken": "Connecte S A, présent à Douala comme à Yaoundé.",
+      "seed": 2,
+      "length_scale": 1.0,
+      "start": 8.38,
+      "end": 11.252,
+      "window": [
+        8.3,
+        11.7
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 5.2,
+      "f0_median_hz": 112.5,
+      "f0_std_st": 3.48,
+      "hnr_db": 10.9,
+      "final_slope_st": -3.84,
+      "syll_per_s": 5.3
+    },
+    {
+      "id": "V4",
+      "text": "Ordinateurs, imprimantes, copieurs, consommables : nous vous conseillons l'équipement adapté à votre activité.",
+      "spoken": "Ordinateurs, imprimantes, copieurs, consommables : nous vous conseillons l'équipement adapté à votre activité.",
+      "seed": 4,
+      "length_scale": 0.981,
+      "start": 11.98,
+      "end": 18.999,
+      "window": [
+        11.9,
+        19.1
+      ],
+      "pauses_shortened_s": 0.078,
+      "comp_gr90_db": 6.6,
+      "f0_median_hz": 126.1,
+      "f0_std_st": 3.77,
+      "hnr_db": 10.2,
+      "final_slope_st": -3.79,
+      "syll_per_s": 4.15
+    },
+    {
+      "id": "V5a",
+      "text": "Des ordinateurs pour avancer,",
+      "spoken": "Des ordinateurs pour avancer,",
+      "seed": 3,
+      "length_scale": 1.0,
+      "start": 19.83,
+      "end": 21.317,
+      "window": [
+        19.75,
+        22.2
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 7.2,
+      "f0_median_hz": 103.0,
+      "f0_std_st": 2.16,
+      "hnr_db": 9.5,
+      "final_slope_st": -1.06,
+      "syll_per_s": 6.25
+    },
+    {
+      "id": "V5b",
+      "text": "des imprimantes pour des documents nets,",
+      "spoken": "des imprimantes pour des documents nets,",
+      "seed": 4,
+      "length_scale": 1.0,
+      "start": 22.43,
+      "end": 24.408,
+      "window": [
+        22.35,
+        24.8
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 5.8,
+      "f0_median_hz": 120.8,
+      "f0_std_st": 2.9,
+      "hnr_db": 12.6,
+      "final_slope_st": -4.1,
+      "syll_per_s": 5.15
+    },
+    {
+      "id": "V5c",
+      "text": "des copieurs pour toute l'équipe.",
+      "spoken": "des copieurs pour toute l'équipe.",
+      "seed": 2,
+      "length_scale": 1.0,
+      "start": 25.03,
+      "end": 26.529,
+      "window": [
+        24.95,
+        27.2
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 6.5,
+      "f0_median_hz": 122.8,
+      "f0_std_st": 5.38,
+      "hnr_db": 8.2,
+      "final_slope_st": -5.26,
+      "syll_per_s": 4.79
+    },
+    {
+      "id": "V6",
+      "text": "Tout pour votre bureau, au même endroit.",
+      "spoken": "Tout pour votre bureau, au même endroit.",
+      "seed": 3,
+      "length_scale": 0.983,
+      "start": 27.43,
+      "end": 29.465,
+      "window": [
+        27.35,
+        29.55
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 5.5,
+      "f0_median_hz": 112.8,
+      "f0_std_st": 4.62,
+      "hnr_db": 9.4,
+      "final_slope_st": -2.93,
+      "syll_per_s": 4.52
+    },
+    {
+      "id": "V7",
+      "text": "Après l'achat, nous restons à vos côtés : installation, maintenance, location de copieurs.",
+      "spoken": "Après l'achat, nous restons à vos côtés : installation, maintenance, location de copieurs.",
+      "seed": 2,
+      "length_scale": 0.921,
+      "start": 29.78,
+      "end": 35.387,
+      "window": [
+        29.7,
+        35.5
+      ],
+      "pauses_shortened_s": 0.011,
+      "comp_gr90_db": 6.2,
+      "f0_median_hz": 112.6,
+      "f0_std_st": 3.97,
+      "hnr_db": 9.2,
+      "final_slope_st": 0.4,
+      "syll_per_s": 4.31
+    },
+    {
+      "id": "V8",
+      "text": "CONNECT SA, un partenaire sérieux. Parlons de vos besoins.",
+      "spoken": "Connecte S A, un partenaire sérieux. Parlons de vos besoins.",
+      "seed": 1,
+      "length_scale": 1.0,
+      "start": 35.88,
+      "end": 39.297,
+      "window": [
+        35.8,
+        39.75
+      ],
+      "pauses_shortened_s": 0.525,
+      "comp_gr90_db": 7.7,
+      "f0_median_hz": 111.6,
+      "f0_std_st": 4.11,
+      "hnr_db": 9.8,
+      "final_slope_st": -1.87,
+      "syll_per_s": 4.73
+    }
+  ],
+  "voice_alt": [
+    {
+      "id": "V1",
+      "text": "Du matériel informatique, à Douala ou à Yaoundé ?",
+      "spoken": "Du matériel informatique, à Douala ou à Yaoundé ?",
+      "seed": 1,
+      "length_scale": 1.0,
+      "start": 0.28,
+      "end": 3.192,
+      "window": [
+        0.2,
+        3.5
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 5.5,
+      "f0_median_hz": 212.9,
+      "f0_std_st": 3.43,
+      "hnr_db": 13.0,
+      "final_slope_st": -3.78,
+      "syll_per_s": 6.01
+    },
+    {
+      "id": "V2",
+      "text": "Pour votre entreprise, choisissez un partenaire sérieux.",
+      "spoken": "Pour votre entreprise, choisissez un partenaire sérieux.",
+      "seed": 2,
+      "length_scale": 1.0,
+      "start": 3.83,
+      "end": 7.18,
+      "window": [
+        3.75,
+        7.9
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 6.2,
+      "f0_median_hz": 206.9,
+      "f0_std_st": 3.66,
+      "hnr_db": 12.3,
+      "final_slope_st": -5.37,
+      "syll_per_s": 4.26
+    },
+    {
+      "id": "V3",
+      "text": "CONNECT SA, présent à Douala comme à Yaoundé.",
+      "spoken": "Connecte S A, présent à Douala comme à Yaoundé.",
+      "seed": 4,
+      "length_scale": 1.0,
+      "start": 8.38,
+      "end": 11.032,
+      "window": [
+        8.3,
+        11.7
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 5.5,
+      "f0_median_hz": 224.9,
+      "f0_std_st": 3.87,
+      "hnr_db": 13.2,
+      "final_slope_st": -3.45,
+      "syll_per_s": 5.84
+    },
+    {
+      "id": "V4",
+      "text": "Ordinateurs, imprimantes, copieurs, consommables : nous vous conseillons l'équipement adapté à votre activité.",
+      "spoken": "Ordinateurs, imprimantes, copieurs, consommables : nous vous conseillons l'équipement adapté à votre activité.",
+      "seed": 3,
+      "length_scale": 1.0,
+      "start": 11.98,
+      "end": 18.313,
+      "window": [
+        11.9,
+        19.1
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 6.8,
+      "f0_median_hz": 204.0,
+      "f0_std_st": 3.69,
+      "hnr_db": 11.9,
+      "final_slope_st": -4.49,
+      "syll_per_s": 4.64
+    },
+    {
+      "id": "V5a",
+      "text": "Des ordinateurs pour avancer,",
+      "spoken": "Des ordinateurs pour avancer,",
+      "seed": 2,
+      "length_scale": 1.0,
+      "start": 19.83,
+      "end": 21.537,
+      "window": [
+        19.75,
+        22.2
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 6.5,
+      "f0_median_hz": 216.2,
+      "f0_std_st": 3.87,
+      "hnr_db": 12.4,
+      "final_slope_st": -4.01,
+      "syll_per_s": 5.49
+    },
+    {
+      "id": "V5b",
+      "text": "des imprimantes pour des documents nets,",
+      "spoken": "des imprimantes pour des documents nets,",
+      "seed": 1,
+      "length_scale": 1.0,
+      "start": 22.43,
+      "end": 24.714,
+      "window": [
+        22.35,
+        24.8
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 5.4,
+      "f0_median_hz": 209.3,
+      "f0_std_st": 3.39,
+      "hnr_db": 13.5,
+      "final_slope_st": -2.43,
+      "syll_per_s": 4.52
+    },
+    {
+      "id": "V5c",
+      "text": "des copieurs pour toute l'équipe.",
+      "spoken": "des copieurs pour toute l'équipe.",
+      "seed": 2,
+      "length_scale": 0.964,
+      "start": 25.03,
+      "end": 27.102,
+      "window": [
+        24.95,
+        27.2
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 7.1,
+      "f0_median_hz": 253.5,
+      "f0_std_st": 3.08,
+      "hnr_db": 11.6,
+      "final_slope_st": -4.85,
+      "syll_per_s": 3.48
+    },
+    {
+      "id": "V6",
+      "text": "Tout pour votre bureau, au même endroit.",
+      "spoken": "Tout pour votre bureau, au même endroit.",
+      "seed": 4,
+      "length_scale": 0.929,
+      "start": 27.43,
+      "end": 29.466,
+      "window": [
+        27.35,
+        29.55
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 5.5,
+      "f0_median_hz": 219.2,
+      "f0_std_st": 4.01,
+      "hnr_db": 11.1,
+      "final_slope_st": -5.91,
+      "syll_per_s": 4.69
+    },
+    {
+      "id": "V7",
+      "text": "Après l'achat, nous restons à vos côtés : installation, maintenance, location de copieurs.",
+      "spoken": "Après l'achat, nous restons à vos côtés : installation, maintenance, location de copieurs.",
+      "seed": 3,
+      "length_scale": 1.0,
+      "start": 29.78,
+      "end": 35.357,
+      "window": [
+        29.7,
+        35.5
+      ],
+      "pauses_shortened_s": 0.0,
+      "comp_gr90_db": 5.9,
+      "f0_median_hz": 208.3,
+      "f0_std_st": 3.24,
+      "hnr_db": 12.4,
+      "final_slope_st": -4.43,
+      "syll_per_s": 4.36
+    },
+    {
+      "id": "V8",
+      "text": "CONNECT SA, un partenaire sérieux. Parlons de vos besoins.",
+      "spoken": "Connecte S A, un partenaire sérieux. Parlons de vos besoins.",
+      "seed": 4,
+      "length_scale": 1.0,
+      "start": 35.88,
+      "end": 39.507,
+      "window": [
+        35.8,
+        39.75
+      ],
+      "pauses_shortened_s": 0.23,
+      "comp_gr90_db": 6.1,
+      "f0_median_hz": 193.0,
+      "f0_std_st": 3.9,
+      "hnr_db": 12.4,
+      "final_slope_st": -4.4,
+      "syll_per_s": 4.49
+    }
+  ],
+  "main": {
+    "lufs_i": -14.03,
+    "true_peak_dbtp": -1.2,
+    "sample_peak_dbfs": -1.21
+  },
+  "alt": {
+    "lufs_i": -14.0,
+    "true_peak_dbtp": -1.2,
+    "sample_peak_dbfs": -1.21
+  }
+}

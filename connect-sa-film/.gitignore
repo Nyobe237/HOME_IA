@@ -5,3 +5,4 @@ out/tmp/
 audio/models/
 audio/.venv/
 *.log
+__pycache__/

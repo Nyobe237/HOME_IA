@@ -10,7 +10,7 @@ import { StageScene } from "./scenes/StageScene";
 import { S7Services } from "./scenes/S7Services";
 import { S8EndCard } from "./scenes/S8EndCard";
 
-export const HAS_AUDIO = false;
+export const HAS_AUDIO = true;
 
 export const Film: React.FC = () => {
   loadFonts();

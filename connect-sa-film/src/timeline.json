@@ -272,8 +272,8 @@
     {
       "id": "V1",
       "window": [
-        0.25,
-        3.2
+        0.2,
+        3.5
       ],
       "text": "Du matériel informatique, à Douala ou à Yaoundé ?"
     },
@@ -288,10 +288,10 @@
     {
       "id": "V3",
       "window": [
-        8.35,
-        11.3
+        8.3,
+        11.7
       ],
-      "text": "CONNECT SA : informatique et bureautique, à Douala comme à Yaoundé."
+      "text": "CONNECT SA, présent à Douala comme à Yaoundé."
     },
     {
       "id": "V4",
@@ -328,8 +328,8 @@
     {
       "id": "V6",
       "window": [
-        27.45,
-        29.5
+        27.35,
+        29.55
       ],
       "text": "Tout pour votre bureau, au même endroit."
     },
@@ -339,15 +339,15 @@
         29.7,
         35.5
       ],
-      "text": "Et après l'achat, nous restons à vos côtés : installation, maintenance, service après-vente et location de copieurs."
+      "text": "Après l'achat, nous restons à vos côtés : installation, maintenance, location de copieurs."
     },
     {
       "id": "V8",
       "window": [
-        35.95,
-        39.6
+        35.8,
+        39.75
       ],
-      "text": "CONNECT SA, informatique et bureautique. Parlons de vos besoins."
+      "text": "CONNECT SA, un partenaire sérieux. Parlons de vos besoins."
     }
   ],
   "voiceoverPronunciation": {
